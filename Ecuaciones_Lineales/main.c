@@ -24,8 +24,7 @@ int main(){
     scanf("%d",&ran1);
     printf("Deme el rango final: ");
     scanf("%d",&ran2);
-    
-    impresionPuntos(ran1,ran2,m,b);
     gnuplotT(m,b,ran1,ran2);
+    impresionPuntos(ran1,ran2,m,b);
     return 0;
 }

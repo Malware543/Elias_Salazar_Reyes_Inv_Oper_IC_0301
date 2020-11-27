@@ -717,15 +717,11 @@ void gnuplot_plot_atmpfile(gnuplot_ctrl * handle, char const* tmp_filename, char
 //-------------------------------------------------------------------------------------------------------//
 void impresionPuntos(int ran1, int ran2,int m,int b){
     ran2++;
-    double mul,sum;
     double x[100],y[100];
     for(int i=ran1; i<ran2; i++){
 		x[i] = (double)i ;
-        printf("i:%d",i);
-        mul=(m*i);
-        sum=(b+mul);
-		y[i] = sum;
-		printf("x [%f] - y [%.2f]\t\n",x[i],y[i]);
+		y[i] = (b+(m*i);
+		printf("x [%.2f] - y [%.2f]\t\n",x[i],y[i]);
         }
 	}
 
@@ -734,6 +730,7 @@ void impresionPuntos(int ran1, int ran2,int m,int b){
 void gnuplotT(int m,int b,int ran1,int ran2){
     gnuplot_ctrl * h1;
     h1 = gnuplot_init();
+    gnuplot_cmd(h1,"set grid nopolar");
     gnuplot_cmd(h1,"set xrange [%d:%d]",ran1,ran2);
     gnuplot_cmd(h1,"set xzeroaxis lt -1");
     gnuplot_cmd(h1,"set yzeroaxis lt -1");
