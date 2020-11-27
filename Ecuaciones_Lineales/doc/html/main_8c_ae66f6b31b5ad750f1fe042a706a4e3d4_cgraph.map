@@ -1,0 +1,10 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title="Funcion principal." alt="" coords="5,132,56,159"/>
+<area shape="rect" id="node2" href="$gnuplot__i_8c.html#a879b053925f82fcd124b86a81669b8e5" title="gnuplotT Sirve para graficar la ecuacion planteada, otorga los ejes x, y, imprime la ecuacion plantea..." alt="" coords="127,107,199,133"/>
+<area shape="rect" id="node8" href="$gnuplot__i_8c.html#a7a3cb150d71ffb5e6df2dfd35735b345" title="impresionPuntos Sirve para hacer el calculo de donde estan ubicacdos los puntos de x ,..." alt="" coords="104,157,223,184"/>
+<area shape="rect" id="node3" href="$gnuplot__i_8c.html#a416bd48453ce016d6419f0f39fa5c625" title="Closes a gnuplot session previously opened by gnuplot_init()" alt="" coords="285,5,387,32"/>
+<area shape="rect" id="node4" href="$gnuplot__i_8c.html#a8c71c6b7a0d957fa9280bf4b984bf43a" title="Sends a command to an active gnuplot session." alt="" coords="460,95,556,121"/>
+<area shape="rect" id="node5" href="$gnuplot__i_8c.html#af38602f2bf3bf427b4c6af1e3cc6f371" title="Opens up a gnuplot session, ready to receive commands." alt="" coords="292,157,380,184"/>
+<area shape="rect" id="node6" href="$gnuplot__i_8c.html#a6e5c073fc8478c3ea121f308254b683a" title="Change the plotting style of a gnuplot session." alt="" coords="449,171,567,197"/>
+<area shape="rect" id="node7" href="$gnuplot__i_8c.html#a0622d593434823fccadcc4415db5fe2d" title="Plot a slope on a gnuplot session." alt="" coords="271,107,401,133"/>
+</map>

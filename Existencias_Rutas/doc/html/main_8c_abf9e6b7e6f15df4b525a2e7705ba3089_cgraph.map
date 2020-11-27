@@ -1,0 +1,8 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,56,133"/>
+<area shape="rect" id="node2" href="$metodos_8c.html#a8d34789ba562fc88f5f569546e53bc20" title="Compra los resultados obtenidos y si son iguales quiere decir que existe un camino." alt="" coords="104,5,185,32"/>
+<area shape="rect" id="node3" href="$metodos_8c.html#a3d7a8410536493d71bfdb930eef80248" title="findStreet Motor del programa, se encarga de comparar si las coordenadas a buscar tienen un camino pa..." alt="" coords="105,56,184,83"/>
+<area shape="rect" id="node4" href="$metodos_8c.html#a84b433b6c6be9df9499e32ee9b13899b" title="Impresión imprime la matriz de adyasencia del grafo ocupado." alt="" coords="105,107,184,133"/>
+<area shape="rect" id="node5" href="$metodos_8c.html#a8b85f008472b6a85d253f83a4bcbe2aa" title="init Inicializa los espacios necesarios para su ejecución de la matriz bidimensional." alt="" coords="125,157,164,184"/>
+<area shape="rect" id="node6" href="$metodos_8c.html#af7ae75e96b657705276c0db71190a2f1" title="llenado Solicita las adyasencias que hay en el grafo que se esta utilizando." alt="" coords="113,208,176,235"/>
+</map>
