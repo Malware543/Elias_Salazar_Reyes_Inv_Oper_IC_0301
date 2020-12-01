@@ -1,4 +1,12 @@
+/**
+ * @file MetodoSimplex.c
+ * @version 1.0
+ * @author Elias Salazar Reyes
+ * @union metodosimplex.h
+ * @brief Funciones
+*/
 #include "metodosimplex.h"
+#include "gnuplot_i.h"
 void imprimir_tabla_simplex_uno(float num[LIM],float num_dos[LIM][LIM],float num_tres[LIM],int v,int r){
 	int i,n;
 	printf("\t\t\tTabla simplex #1\n");
@@ -98,7 +106,7 @@ void elemento_pivote(float num[LIM][LIM],int aux2,int aux){
 }
 
 void nueva_fila_pivote(float nfp[LIM][LIM],float nfp2[LIM],float num[LIM][LIM],float num_dos[LIM],int aux2,int aux,int v){
-	int n,i=0,k;
+	int n,k=0;
 	printf("\nNueva fila pivote\n");
 	for(n=0;n<v;n++){
 		nfp[aux2][n]=num[aux2][n]/num[aux2][aux];
@@ -139,4 +147,30 @@ int obtener_resultado_z(float z2,float num[LIM],float menor,int aux2){
 	res=menor*num[aux2];
 	z2=z2-res;
 	return z2;
+}
+
+void graficar(float num[LIM],float num_dos[LIM][LIM],int r,int v){
+	gnuplot_ctrl *h1;
+	float x,y=1;
+
+	h1 = gnuplot_init();
+	gnuplot_cmd(h1,"set xzeroaxis lt -1");
+	gnuplot_cmd(h1,"set yzeroaxis lt -1");
+	gnuplot_setstyle(h1,"lines");
+	gnuplot_cmd(h1,"set grid nopolar");
+	gnuplot_cmd(h1,"set xrange [0:50]");
+	gnuplot_cmd(h1,"set yrange [0:50]");
+
+		for(int i=0;i<r;i++){
+			for(int j=0;j<v;j++){
+				x=num[i]/num_dos[i][j];
+				printf("%.1f=%.1f/%.1f\n",x,num[i],num_dos[i][j]);
+				y=x/y;
+			}
+			printf("%.1f\n",y);
+			gnuplot_plot_slope(h1,-y,x,"y=x");
+			y=1;
+		}
+		sleep(30);
+		gnuplot_close(h1);
 }

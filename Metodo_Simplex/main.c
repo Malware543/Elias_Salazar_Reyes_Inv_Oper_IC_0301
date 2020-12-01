@@ -1,8 +1,19 @@
+/**
+ * @file main.c
+ * @version 1.0
+ * @author Elias Salazar Reyes
+ * @union metodosimplex.h
+ * @brief Funcion principal
+*/
 #include "metodosimplex.h"
 #include <stdio.h>
+/**
+*@brief main funcion principal
+*@return 0. 
+*/
 int main(){
 	float funcion[LIM],restriccion[LIM][LIM],constante[LIM];
-	float rcons[LIM],nfp[LIM][LIM],nfp2[LIM],z2;
+	float rcons[LIM],nfp[LIM][LIM],nfp2[LIM],z2=0;
 	int i,n,v,r;
 	float menor,menor2;
 	int aux=0,aux2=0;
@@ -35,6 +46,8 @@ int main(){
 	printf("\n%f",menor);
 	aux = buscar_posicion(funcion,v);
 	printf("\n%d",aux);
+	printf("grafica\n");
+	graficar(funcion,restriccion,r,v);
 	do{
 		columna_pivote(restriccion,r,aux);
 		fila_pivote(restriccion,constante,rcons,r,aux);
@@ -53,5 +66,7 @@ int main(){
 	printf("-----------------------------------------------------------\n");
 	imprimir_tabla_simplex_dos(funcion,restriccion,constante,v,r,z2);
 	printf("-----------------------------------------------------------\n");
+
+	
 	return 0;
 }

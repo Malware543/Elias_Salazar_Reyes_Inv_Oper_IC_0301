@@ -1,0 +1,21 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title="main funcion principal" alt="" coords="5,309,56,336"/>
+<area shape="rect" id="node2" href="$_metodo_simplex_8c.html#a9fb9da8f7d5a02738a51a3c17cf5efd5" title="buscar_menor Como su nombre lo dice es que busca el numero menor de la tabla." alt="" coords="143,5,247,32"/>
+<area shape="rect" id="node3" href="$_metodo_simplex_8c.html#a5294fe22ed58d5ccc8ff297cb00f9a03" title="buscar_menor2 Como el nombre lo dice busca el numero menor en la segunda de la tabla." alt="" coords="140,56,251,83"/>
+<area shape="rect" id="node4" href="$_metodo_simplex_8c.html#a9aafea31a2bef02b685ee4669f9b5ce3" title="buscar_posicion Se encarga de buscar la posicion del numero menor." alt="" coords="137,107,253,133"/>
+<area shape="rect" id="node5" href="$_metodo_simplex_8c.html#a47cf591c7560b00794b766c1ab4792bc" title="buscar_posicion2 Se encarga de buscar la posicion del numero menor en la segunda tabla." alt="" coords="134,157,257,184"/>
+<area shape="rect" id="node6" href="$_metodo_simplex_8c.html#aee02ee7ef3de984e8969ac3bd01aec5a" title="columna_pivote Se encarga de encontrar donde se encuentran los valores menores en las columnas." alt="" coords="139,208,252,235"/>
+<area shape="rect" id="node7" href="$_metodo_simplex_8c.html#abe851dbcedc285b4775a8094d8f7b6b9" title="elemento_pivote Calcula cual es el elemento pivote con respesto a las tablas." alt="" coords="137,259,254,285"/>
+<area shape="rect" id="node8" href="$_metodo_simplex_8c.html#a86749b69d98f8bbad35e8d9380043690" title="fila_pivote Se encarga de encontrar donde se encuentran los valores menores en las filas." alt="" coords="155,309,236,336"/>
+<area shape="rect" id="node9" href="$_metodo_simplex_8c.html#a2a096280288738e512987abaabbf20b4" title="graficar como su nombre lo dice grafica las restricciones." alt="" coords="163,360,228,387"/>
+<area shape="rect" id="node15" href="$_metodo_simplex_8c.html#afa3b17f70ba94e45f83e67a9e9929113" title="imprimir_tabla_simplex_dos sirve para calcula la segunda tabla de restricciones" alt="" coords="104,411,287,437"/>
+<area shape="rect" id="node16" href="$_metodo_simplex_8c.html#a77290111e2efaa6bb260b0867aac479c" title="imprimir_tabla_simplex_uno sirve para calcula la primer tabla de restricciones" alt="" coords="104,461,287,488"/>
+<area shape="rect" id="node17" href="$_metodo_simplex_8c.html#aae887cf36fa5f8ebce6f4bff9fd40037" title="nueva_fila_pivote Se encarga de calcular la nueva fila pivote que resulta de dividir elemento pivote ..." alt="" coords="134,512,257,539"/>
+<area shape="rect" id="node18" href="$_metodo_simplex_8c.html#a344dc6ca851db4e7d86f8f11e302766f" title="obtener_nueva_tabla Recolecta los datos para la elavoración de la segunda tabla pivote" alt="" coords="124,563,267,589"/>
+<area shape="rect" id="node19" href="$_metodo_simplex_8c.html#a80500b8cab70a91c8f0e80c8ce70c84f" title="obtener_resultado_z calcula el valor de la funcion de z." alt="" coords="126,613,265,640"/>
+<area shape="rect" id="node10" href="$gnuplot__i_8c.html#a416bd48453ce016d6419f0f39fa5c625" title="Closes a gnuplot session previously opened by gnuplot_init()" alt="" coords="349,259,451,285"/>
+<area shape="rect" id="node11" href="$gnuplot__i_8c.html#a8c71c6b7a0d957fa9280bf4b984bf43a" title="Sends a command to an active gnuplot session." alt="" coords="524,348,620,375"/>
+<area shape="rect" id="node12" href="$gnuplot__i_8c.html#af38602f2bf3bf427b4c6af1e3cc6f371" title="Opens up a gnuplot session, ready to receive commands." alt="" coords="356,411,444,437"/>
+<area shape="rect" id="node13" href="$gnuplot__i_8c.html#a6e5c073fc8478c3ea121f308254b683a" title="Change the plotting style of a gnuplot session." alt="" coords="513,424,631,451"/>
+<area shape="rect" id="node14" href="$gnuplot__i_8c.html#a0622d593434823fccadcc4415db5fe2d" title="Plot a slope on a gnuplot session." alt="" coords="335,360,465,387"/>
+</map>
