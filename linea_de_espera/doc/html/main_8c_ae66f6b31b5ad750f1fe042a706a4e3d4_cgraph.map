@@ -1,0 +1,9 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,132,56,159"/>
+<area shape="rect" id="node2" href="$_l_espera_8h.html#ad38c3125fd29f5a47992c2f201dbeb5f" title="imprimirH Imprime el rango de horas." alt="" coords="110,5,189,32"/>
+<area shape="rect" id="node3" href="$_l_espera_8h.html#a0dc3f6500903faf67dba3287834a8e83" title="imprimirU Imprime la informacion de los arreglos de los usuarios." alt="" coords="110,56,189,83"/>
+<area shape="rect" id="node4" href="$_l_espera_8h.html#a8857ce0738141a14fe4635e5d0e57ec7" title="input calcula la entrada de usuarios." alt="" coords="124,107,175,133"/>
+<area shape="rect" id="node5" href="$_l_espera_8h.html#a8ed68ed0d2008b59eb2b68fae77fbc01" title="lineas Imprime los estilos de la tabla.." alt="" coords="121,157,177,184"/>
+<area shape="rect" id="node6" href="$_l_espera_8h.html#a4a0159daae1c33892081f6e4a5a9a5b3" title="output calcula la salida de los usuarios." alt="" coords="120,208,179,235"/>
+<area shape="rect" id="node7" href="$_l_espera_8h.html#a8d58f1f416cd8a160b5b5309d6e923a8" title="usuaEspera calcula la cantidad de usuarios que estan en espera." alt="" coords="104,259,195,285"/>
+</map>
