@@ -96,7 +96,7 @@ $(function() {
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    _usuEspera[_hInit-1]=0;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">for</span>(i=_hInit;i&lt;_hFinal;i++){</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        _usuEspera[i]=_usuarios[i]-_capacidadAten[i]+_usuEspera[i-1];</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">if</span>(_usuEspera[i]&lt;=0){</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">if</span>(_usuEspera[i]&lt;0){</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            _usuEspera[i]=0;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        }</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div>
@@ -116,7 +116,7 @@ $(function() {
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    out[_hInit-1]=0;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordflow">for</span>(i=_hInit;i&lt;_hFinal;i++){</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">if</span>(_usuEspera[i]==0){</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <a class="code" href="metodos_8c.html#a4a0159daae1c33892081f6e4a5a9a5b3">output</a>=_usuEspera[i];</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <a class="code" href="metodos_8c.html#a4a0159daae1c33892081f6e4a5a9a5b3">output</a>=_usuarios[i];</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            printf(<span class="stringliteral">&quot;%i\t\t&quot;</span>,<a class="code" href="metodos_8c.html#a4a0159daae1c33892081f6e4a5a9a5b3">output</a>);</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        } <span class="keywordflow">else</span>{</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            <a class="code" href="metodos_8c.html#a4a0159daae1c33892081f6e4a5a9a5b3">output</a>=_capacidadAten[i];</div>

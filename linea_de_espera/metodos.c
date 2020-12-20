@@ -29,7 +29,7 @@ void usuaEspera(int _capacidadAten[Max],int _usuarios[Max],int _usuEspera[Max],i
     _usuEspera[_hInit-1]=0;
     for(i=_hInit;i<_hFinal;i++){
         _usuEspera[i]=_usuarios[i]-_capacidadAten[i]+_usuEspera[i-1];
-        if(_usuEspera[i]<=0){
+        if(_usuEspera[i]<0){
             _usuEspera[i]=0;
         }
     }
@@ -49,7 +49,7 @@ void output(int _capacidadAten[Max],int _usuarios[Max],int _usuEspera[Max],int o
     out[_hInit-1]=0;
     for(i=_hInit;i<_hFinal;i++){
         if(_usuEspera[i]==0){
-            output=_usuEspera[i];
+            output=_usuarios[i];
             printf("%i\t\t",output);
         } else{
             output=_capacidadAten[i];
